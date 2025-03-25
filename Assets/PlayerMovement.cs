@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
  
         // if (grounded)
         // {
-        //     Debug.Log("HERE");
             // Calculate how fast we should be moving
             Vector3 forward = Vector3.Cross(transform.up, -LookTransform.right).normalized;
             Vector3 right = Vector3.Cross(transform.up, LookTransform.forward).normalized;
